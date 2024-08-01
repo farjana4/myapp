@@ -11,6 +11,7 @@ use App\Events\UserSubscribed;
 
 class AuthController extends Controller
 {
+    //register the user
     public function register(Request $request){
         //validate
         $fields = $request->validate([
